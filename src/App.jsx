@@ -1,14 +1,15 @@
 import React from 'react'
-import './App.css'
+import NavigationBar from './components/NavigationBar';
+// import { useScrollToTop } from './hooks/useScrollToTop';
+import HeroSection from './components/Hero';
 
-function App() {
+const App = () => {
   return (
-    <>
-      <div>
-        Hello world
-      </div>
-    </>
+    <div>
+      <NavigationBar/>
+      <HeroSection/>
+    </div>
   )
 }
 
-export default App
+export default App;
