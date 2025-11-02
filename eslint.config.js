@@ -23,7 +23,8 @@ export default defineConfig([
       },
     },
     rules: {
-      'no-unused-vars': ['warn', { varsIgnorePattern: '^motion$' }]
+      'no-unused-vars': ['warn', { varsIgnorePattern: '^motion$' }], // motion config
+      "argsIgnorePattern": "^_"
     },
   },
 ])
